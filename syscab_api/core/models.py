@@ -70,7 +70,7 @@ class Civile(models.Model):
     ),
     ref = models.CharField(max_length = 200),
     description = models.TextField(),
-    acte = models.FileField(dqwdddw)
+    acte = models.FileField()
 
 
 
